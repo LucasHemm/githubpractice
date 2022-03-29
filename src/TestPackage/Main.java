@@ -18,8 +18,14 @@ public class Main {
         fleet.addCar(dieselBandit);
         //System.out.println(fleet.getTotalFee());
         //System.out.println(w13);
-        System.out.println(fleet);
-        System.out.println(fleet.getTotalFee());
+        //System.out.println(fleet);
+       // System.out.println(fleet.getTotalFee());
         //System.out.println(tesla.getModel());
+
+        MainFeature mainFeature = new MainFeature();
+        System.out.println(mainFeature);
+        NewFeature newFeature = new NewFeature();
+        System.out.println(newFeature);
+
     }
 }
